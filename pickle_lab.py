@@ -26,7 +26,7 @@ def showDictionary(d):
 
 if __name__ == "__main__":
 	dictionary = {}	
-	while len(dictionary) < 2:
+	while len(dictionary) < 5:
 		insertWordToDictionary(dictionary)
 	print "\n\nDictionary from memory:"
 	showDictionary(dictionary)
